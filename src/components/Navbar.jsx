@@ -10,7 +10,7 @@ function Navbar() {
   ];
   return (
     <nav className="flex justify-between align-middle w-full h-[8vh] px-20">
-      <img className="h-[60px] mt-[9px]" src="/public/Logo.svg"/>
+      <img className="h-[60px] mt-[9px]" src="/Logo.svg"/>
       <div>
         <ul className="flex gap-10 mt-[25px] font-bold">
           {navlist.map((key) => (
